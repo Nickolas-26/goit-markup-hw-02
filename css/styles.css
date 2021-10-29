@@ -7,3 +7,22 @@
   background-color: #e5e5e5;
   color: #757575;
 }
+.logo {
+  color: #2196f3;
+}
+.ul {
+  list-style: none;
+}
+/* site nav */
+.site-nav {
+  color: #212121;
+}
+.auth-nav {
+  color: #757575;
+}
+.auth-nav .link:hover {
+  color: #2196f3;
+}
+.site-nav .studia:hover {
+  color: #2196f3;
+}
