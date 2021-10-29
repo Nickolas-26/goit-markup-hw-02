@@ -3,36 +3,70 @@
 /* цвет фона #E5E5E5 */
 /* цвет фона вторичный #F5F4FA */
 /* акцент #2196F3 */
+:root {
+  --primari-background-color: #e5e5e5;
+  --primari-accent-color: #2196f3;
+  --primari-tittle-color: #212121;
+  --primari-text-color: #757575;
+  --primari-white-color: #ffffff;
+  --primari-hero-color: #2f303a;
+  --primari-team-color: #f5f4fa;
+}
 .page {
-  background-color: #e5e5e5;
+  background-color: var(--primari-background-color);
 }
 .logo {
-  color: #2196f3;
+  color: var(--primari-accent-color);
 }
 ul {
   list-style: none;
 }
 /* site nav */
 .site-nav .site-nav:focus {
-  color: #212121;
+}
+.site-nav {
+  color: var(--primari-tittle-color);
 }
 .auth-nav {
-  color: #757575;
+  color: var(--primari-text-color);
 }
 .auth-nav .link:hover {
-  color: #2196f3;
+  color: var(--primari-accent-color);
 }
 .site-nav .studia:hover {
-  color: #2196f3;
+  color: var(--primari-accent-color);
 }
 /*  hero  */
 .hero {
   background-color: #2f303a;
 }
-.hero-text {
+.hero-tittle {
   color: #ffffff;
 }
-/* speciality */
+.button {
+  color: var(--primari-white-color);
+  background-color: var(--primari-accent-color);
+}
+
+/* section */
 .section-tittle {
-  color: #212121;
+  color: var(--primari-tittle-color);
+}
+/* feature */
+.feature-list {
+  color: var(--primari-text-color);
+}
+/* footer */
+.footer-section {
+  background-color: var(--primari-hero-color);
+}
+.adress-section {
+  color: var(--primari-white-color);
+}
+.link-connections {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* team */
+.team {
+  background-color: var(--primari-team-color);
 }
