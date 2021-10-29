@@ -9,11 +9,11 @@
 .logo {
   color: #2196f3;
 }
-.ul {
+ul {
   list-style: none;
 }
 /* site nav */
-.site-nav {
+.site-nav .site-nav:focus {
   color: #212121;
 }
 .auth-nav {
