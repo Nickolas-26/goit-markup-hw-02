@@ -22,8 +22,6 @@ ul {
   list-style: none;
 }
 /* site nav */
-.site-nav .site-nav:focus {
-}
 .site-nav {
   color: var(--primari-tittle-color);
 }
