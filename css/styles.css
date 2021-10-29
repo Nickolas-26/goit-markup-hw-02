@@ -25,3 +25,14 @@ ul {
 .site-nav .studia:hover {
   color: #2196f3;
 }
+/*  hero  */
+.hero {
+  background-color: #2f303a;
+}
+.hero-text {
+  color: #ffffff;
+}
+/* speciality */
+.speciality-text {
+  color: #212121;
+}
