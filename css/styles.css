@@ -34,6 +34,10 @@ ul {
 .site-nav .studia:hover {
   color: var(--primari-accent-color);
 }
+.site-nav .link.current {
+  color: var(--primari-tittle-color);
+}
+
 /*  hero  */
 .hero {
   background-color: #2f303a;
