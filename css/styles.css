@@ -35,7 +35,7 @@ ul {
   color: var(--primari-accent-color);
 }
 .site-nav .link.current {
-  color: var(--primari-tittle-color);
+  color: var(--primari-accent-color);
 }
 
 /*  hero  */
@@ -45,17 +45,25 @@ ul {
 .hero-tittle {
   color: #ffffff;
 }
-.button {
-  color: var(--primari-white-color);
+.button-main {
   background-color: var(--primari-accent-color);
+  color: var(--primari-white-color);
 }
-
+.button-secondary {
+  background-color: var(--primari-team-color);
+  color: var(--primari-tittle-color);
+}
 /* section */
 .section-tittle {
   color: var(--primari-tittle-color);
 }
 /* feature */
 .feature-list {
+  color: var(--primari-text-color);
+}
+
+/* product */
+.product-list {
   color: var(--primari-text-color);
 }
 /* footer */
