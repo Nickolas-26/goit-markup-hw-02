@@ -79,7 +79,7 @@ ul {
   background-color: #2f303a;
 }
 .hero-tittle {
-  color: #ffffff;
+  color: var(--primari-white-color);
 }
 .button-main:hover {
   background-color: var(--primari-accent-color);
@@ -91,10 +91,19 @@ ul {
 }
 /* section */
 .section-tittle {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.17;
   color: var(--primari-tittle-color);
 }
 /* feature */
 .feature-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
   color: var(--primari-text-color);
 }
 
@@ -115,4 +124,13 @@ ul {
 /* team */
 .team {
   background-color: var(--primari-team-color);
+}
+.team-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primari-tittle-color);
 }
