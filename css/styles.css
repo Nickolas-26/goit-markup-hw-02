@@ -45,11 +45,11 @@ ul {
 .hero-tittle {
   color: #ffffff;
 }
-.button-main {
+.button-main:hover {
   background-color: var(--primari-accent-color);
   color: var(--primari-white-color);
 }
-.button-secondary {
+button-secondary {
   background-color: var(--primari-team-color);
   color: var(--primari-tittle-color);
 }
