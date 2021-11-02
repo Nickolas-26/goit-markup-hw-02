@@ -37,8 +37,8 @@ a,
 u {
   text-decoration: none;
 }
-/* site nav */
 
+/* site nav */
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -102,6 +102,7 @@ u {
   background-color: var(--primari-team-color);
   color: var(--primari-tittle-color);
 }
+
 /* section */
 .section-tittle {
   font-style:normal
@@ -110,6 +111,7 @@ u {
   line-height: 1.17;
   color: var(--primari-tittle-color);
 }
+
 /* feature */
 .feature-list {
   font-family: Roboto;
@@ -129,6 +131,7 @@ u {
   line-height: 1.87;
   color: var(--primari-text-color);
 }
+
 /* footer */
 .footer-section {
   background-color: var(--primari-hero-color);
@@ -163,6 +166,7 @@ u {
 .link-footer:hover {
   color: var(--primari-accent-color);
 }
+
 /* team */
 .team {
   background-color: var(--primari-team-color);
