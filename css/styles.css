@@ -22,13 +22,20 @@
   color: var(--primari-accent-color);
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+span.logo-style{
+  color:var(--primari-tittle-color)
+}
 ul {
   list-style: none;
+}
+a,
+u {
+  text-decoration: none;
 }
 /* site nav */
 
@@ -39,6 +46,12 @@ ul {
   letter-spacing: 0.02em;
   color: var(--primari-tittle-color);
 }
+
+.site-nav:hover ,
+.site-nav:focus {
+  color: var(--primari-accent-color);
+}
+
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
@@ -46,31 +59,25 @@ ul {
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 }
-.auth-nav .link:hover {
+.auth-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primari-accent-color);
 }
-.site-nav .studia:hover {
+.site-nav{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primari-accent-color);
-}
-.site-nav .link.current {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primari-accent-color);
+  color: var(--primari-tittle-color);
+
 }
 
 /*  hero  */
 .hero {
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,7 +86,7 @@ ul {
   background-color: #2f303a;
 }
 .hero-tittle {
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,7 +104,7 @@ ul {
 }
 /* section */
 .section-tittle {
-  font-style: 400;
+  font-style:normal
   font-weight: 700;
   font-size: 44px;
   line-height: 1.17;
@@ -129,25 +136,39 @@ ul {
 .adress-section {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primari-white-color);
 }
-.link-connections {
+.link{
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primari-text-color);
+}
+.link:hover {
+  color: var(--primari-accent-color);
+}
+.link-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+.link-footer:hover {
+  color: var(--primari-accent-color);
 }
 /* team */
 .team {
   background-color: var(--primari-team-color);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
