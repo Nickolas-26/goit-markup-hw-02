@@ -54,7 +54,7 @@ u {
 .site-nav:focus {
   color: var(--primari-accent-color);
 }
-.site-nav :current{
+.site-nav-current{
   color: var(--primari-accent-color);
 }
 
