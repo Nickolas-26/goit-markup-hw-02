@@ -54,7 +54,7 @@ u {
 .site-nav:focus {
   color: var(--primari-accent-color);
 }
-.link-current{
+.site-nav :current{
   color: var(--primari-accent-color);
 }
 
@@ -118,6 +118,7 @@ u {
   color: var(--primari-tittle-color);
 }
 
+
 /* feature */
 .feature-list {
  font-family: Roboto;
@@ -180,6 +181,9 @@ u {
   color: rgba(255, 255, 255, 0.6);
 }
 .link-footer:hover {
+  color: var(--primari-accent-color);
+}
+.link-footer:focus{
   color: var(--primari-accent-color);
 }
 
