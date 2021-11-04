@@ -27,11 +27,11 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-span.logo-style{
-  color:var(--primari-tittle-color)
+span.logo-style {
+  color: var(--primari-tittle-color);
 }
-span.logo-style-white{
-  color:var(--primari-white-color);
+span.logo-style-white {
+  color: var(--primari-white-color);
 }
 ul {
   list-style: none;
@@ -50,18 +50,21 @@ u {
   color: var(--primari-tittle-color);
 }
 
-.site-nav:hover ,
-.site-nav:focus {
+.site-nav.current:hover,
+.site-nav.current:focus {
   color: var(--primari-accent-color);
 }
-.site-nav-current{
+.site-nav-current {
   color: var(--primari-accent-color);
 }
-
+.site-nav-current:hover,
+.site-nav-current:focus {
+  color: var(--primari-accent-color);
+}
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;  
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 }
@@ -92,17 +95,21 @@ u {
   letter-spacing: 0.06em;
   color: var(--primari-white-color);
 }
-.button-main:hover {
-  background-color: var(--primari-accent-color);
-  color: var(--primari-white-color);
+.button-main {
+  background-color: var(--primari-team-color);
+  color: var(--primari-tittle-color);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.62;
-  
-
 }
+.button-main:hover,
+.button-main:focus {
+  background-color: var(--primari-accent-color);
+  color: var(--primari-white-color);
+}
+
 .button-secondary {
   background-color: var(--primari-team-color);
   color: var(--primari-tittle-color);
@@ -111,17 +118,17 @@ u {
 /* section */
 .section-tittle {
   font-family: Roboto;
-  font-style:normal
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 1.17;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   color: var(--primari-tittle-color);
 }
 
-
 /* feature */
 .feature-list {
- font-family: Roboto;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -130,18 +137,19 @@ u {
 }
 
 /* product */
-.product-tittle{
+.product-tittle {
   color: var(--primari-tittle-color);
-  font-style:normal
-  font-weight: 700;
+  ffont-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
 }
 .product-list {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.87;
   color: var(--primari-text-color);
 }
@@ -158,7 +166,7 @@ u {
   line-height: 1.71;
   color: var(--primari-white-color);
 }
-.link{
+.link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -169,7 +177,7 @@ u {
 .link:hover {
   color: var(--primari-accent-color);
 }
-.link:focus{
+.link:focus {
   color: var(--primari-accent-color);
 }
 .link-footer {
@@ -183,7 +191,7 @@ u {
 .link-footer:hover {
   color: var(--primari-accent-color);
 }
-.link-footer:focus{
+.link-footer:focus {
   color: var(--primari-accent-color);
 }
 
@@ -199,9 +207,18 @@ u {
 .team-tittle {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primari-tittle-color);
+}
+.description {
+  color: var(--primari-tittle-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
