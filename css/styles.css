@@ -50,17 +50,14 @@ u {
   color: var(--primari-tittle-color);
 }
 
-.site-nav.current:hover,
-.site-nav.current:focus {
+.site-nav:hover,
+.site-nav:focus {
   color: var(--primari-accent-color);
 }
 .site-nav-current {
   color: var(--primari-accent-color);
 }
-.site-nav-current:hover,
-.site-nav-current:focus {
-  color: var(--primari-accent-color);
-}
+
 .auth-nav {
   font-weight: 500;
   font-size: 14px;
